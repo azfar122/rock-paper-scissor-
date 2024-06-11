@@ -1,0 +1,76 @@
+body{
+    background-color:whitesmoke;
+    background-image: url('images.jpeg')
+}
+h1{
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+}
+.options{
+    justify-content:  center;
+    gap: 10px;
+     /* margin-top: 10px; */
+    /* margin-left: 145px; */ 
+    display: flex;
+    flex-direction: row;
+}
+.box1{
+/* background-color: aqua; */
+border: 3px solid black;
+width: 300px;
+height: 50vh;
+display: flex;
+background-size: cover;
+background-image: url('rocks.JPG');
+background-size: 310px 310px;
+}
+.box2{
+    /* background-color: aqua; */
+    border: 3px solid black;
+    width: 300px;
+    height: 50vh;
+    display: flex;
+    background-image: url('scissor.JPG');
+    background-size: cover;
+    background-size: 310px 310px;
+ 
+
+    }
+    .box3{
+        /* background-color: aqua; */
+        border: 3px solid black;
+        width: 300px;
+        height: 50vh;
+        display: flex;
+background-size: cover;
+background-image: url('hand.JPG');
+background-size: 310px 310px;
+        }
+        .showbox{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+.ourside{
+    border: 3px solid black;
+    width: 300px;
+    height: 50vh;
+    margin-right: 180px;
+    background-color: beige;
+}
+.enemy{
+    border: 3px solid black;
+    width: 300px;
+    height: 50vh;
+    background-color: beige;
+
+}
+.our-caption{
+    /* margin-right: 180px; */
+    margin-left: 330px;
+}
+.enemy-caption{
+    margin-left: 800px;
+    margin-top: -40px;
+}
